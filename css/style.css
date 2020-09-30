@@ -355,8 +355,9 @@ span.logo_txt {
 }
 span.logo_txt small {
     font-size: 13px;
-    margin-top: -7px;
+    margin-top: 0;
     display: block;
+    line-height: 16px;
 }
 section.get-start {
     padding: 3rem 0;
@@ -840,7 +841,7 @@ hr {
     max-width: 100%; }
 
   .st-top-header {
-    display: none; }
+    }
 
   .st-site-header.st-style1 {
     background-color: #fff; }
@@ -1959,9 +1960,7 @@ h4.discount {
     position: initial;
     margin-top: 40px;
     width: 100%; } }
-@media screen and (max-width: 575px) {
-  .st-hero.st-style1 .st-appointment-form {
-    padding: 40px 30px; } }
+
 @media screen and (min-width: 992px) {
   .st-hero-text.st-style3 .st-hero-title {
     font-size: 80px; }
@@ -2186,7 +2185,12 @@ h4.discount {
 
 @media screen and (max-width: 991px) {
   .st-text-block.st-style1 .st-text-block-title {
-    font-size: 24px; } }
+    font-size: 24px; 
+	text-align: center;}
+.st-text-block.st-style1 .st-text-block-text p:last-child {
+    margin-bottom: 0;
+    text-align: justify;
+}	}
 /*--------------------------------------------------------------
 12. Text Block
 ----------------------------------------------------------------*/
@@ -4738,4 +4742,37 @@ h4.discount {
     padding-top: 60px;
     padding-bottom: 20px; } }
 
+@media screen and (max-width: 767px) {
+	.st-main-header-left {
+    width: 85%;
+}
+ul.st-top-header-list li:first-child {
+    display: none;
+}
+}
+
+@media screen and (max-width: 567px) {
+.st-top-header-list li a {
+    font-size: 12px;
+}
+.st-hero.st-style1 .st-appointment-form {
+    padding: 30px 20px;
+}
+.st-hero.st-style1 .st-appointment-form .st-appointment-form-title {
+    font-size: 16px;
+
+}
+.st-iconbox.st-style1.st-type2 {
+    max-width: 100%;
+}
+ul.st-social-btn.st-style1.st-mp0 {
+    width: 70px;
+}
+.st-social-btn.st-style1 li:last-child{
+	margin-right:0;
+}
+.st-social-btn.st-style1 li {
+    margin-right: 10px;
+}
+}
 
