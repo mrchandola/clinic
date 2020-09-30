@@ -1272,7 +1272,7 @@ hr {
 @media screen and (max-width: 991px) {
   .st-btn.st-style1, .st-btn.st-style2 {
     font-size: 14px;
-    padding: 0.72em 1.8em; } }
+    padding: 1em 1.8em; } }
 /*--------------------------------------------------------------
 7. Slider
 ----------------------------------------------------------------*/
@@ -1776,7 +1776,8 @@ h4.discount {
     bottom: 0; }
 
   .st-hero.st-style1 .st-hero-title {
-    font-size: 32px; }
+    font-size: 28px;
+    text-align: center;}
 
   .animated-icon-wrap {
     display: none; } }
@@ -4773,6 +4774,25 @@ ul.st-social-btn.st-style1.st-mp0 {
 }
 .st-social-btn.st-style1 li {
     margin-right: 10px;
+}
+h4.discount {
+    color: #FF5722;
+    font-size: 22px;
+    text-align: center;
+}
+.st-hero.st-style1 .st-hero-subtitle {
+    font-size: 14px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.st-hero-btn {
+    text-align: center;
+}
+.st-iconbox.st-style1 .st-iconbox-title {
+    font-weight: 600;
+    line-height: 1.2em;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 }
 
